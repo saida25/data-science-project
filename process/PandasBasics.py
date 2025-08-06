@@ -13,5 +13,5 @@ print(df)
 #print(df.describe())      # Summary statistics
 #print(df.info())          # Data types
 #print(df["Name"])           # Access column
-#print(df.loc[0])            # Access row by label
+print(df.loc[0])            # Access row by label
 print(df.iloc[1])           # Access row by index
