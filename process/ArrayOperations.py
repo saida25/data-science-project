@@ -14,3 +14,10 @@ print(arr1 * 2)            # Multiply each element by 2
 # Stats
 print("Mean:", arr1.mean())
 print("Sum:", arr1.sum())
+
+print("# All Arr1 element")
+print(arr1)
+print("# First element")
+print(arr1[0]) 
+print(" # Slice without element in index 3")        
+print(arr1[1:3])      
