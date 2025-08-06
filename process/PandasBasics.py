@@ -15,3 +15,5 @@ print(df)
 #print(df["Name"])           # Access column
 print(df.loc[0])            # Access row by label
 print(df.iloc[1])           # Access row by index
+print(df.iloc[2])  # Third row
+print(df.iloc[0:3])
