@@ -49,4 +49,5 @@ print(older_than_30.shape)
 print("Shape after cleaning:", df.shape)
 # Save cleaned data to a new CSV file   
 df.to_csv("/home/saida/IdeaProjects/data-science-project/data/titanic_cleaned.csv", index=False)      
+df.to_excel("titanic_cleaned.xlsx", index=False)
 subset.to_csv("/home/saida/IdeaProjects/data-science-project/data/titanic_subset.csv", index=False)      
