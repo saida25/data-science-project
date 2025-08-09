@@ -35,3 +35,21 @@ df.drop_duplicates(inplace=True)
 print("Shape after cleaning:", df.shape)
 # Save cleaned data to a new CSV file   
 df.to_csv("/home/saida/IdeaProjects/data-science-project/data/titanic_cleaned.csv", index=False)        
+# Select a column
+ages = df['Age']
+print(ages.head())
+
+# Select multiple columns
+subset = df[['Name', 'Age', 'Sex']]
+print(subset.head())
+
+# Filter: Passengers older than 30
+older_than_30 = df[df['Age'] > 30]
+print(older_than_30.shape)
+
+# Filter: Female passengers who survived
+female_survivors = df[(df['Sex'] == 'female') & (df['Survived'] == 1)]
+print(female_survivors.shape)
+# Group by 'Pclass' and calculate average age
+average_age_by_class = df.groupby('Pclass')['Age'].mean()
+print(average_age_by_class) 
