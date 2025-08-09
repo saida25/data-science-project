@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Science & AI Learning Roadmap</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #fafbfc; }
+        h1, h2, h3 { color: #2d3a4a; }
+        ul { margin-bottom: 1.5em; }
+        .goal { font-style: italic; color: #444; margin-bottom: 1em; }
+        .week { margin-bottom: 2em; }
+    </style>
+</head>
+<body>
+    <h1>Data Science & AI Learning Roadmap</h1>
+
+    <div class="week">
+        <h2>Week 1 – Python Foundations for Data Science & AI</h2>
+        <div class="goal">Goal: Make sure you can code fluently enough to build AI projects later.</div>
+        <h3>Python Basics (Day 1–2)</h3>
+        <ul>
+            <li>Variables, data types (int, float, string, bool)</li>
+            <li>Lists, tuples, sets, dictionaries</li>
+            <li>Loops &amp; conditionals</li>
+            <li>Functions</li>
+        </ul>
+        <h3>Data Handling (Day 3–4)</h3>
+        <ul>
+            <li>pandas for dataframes</li>
+            <li>Reading CSV, Excel, JSON</li>
+            <li>Filtering, sorting, grouping data</li>
+        </ul>
+        <h3>Visualization (Day 5–6)</h3>
+        <ul>
+            <li>matplotlib basics</li>
+            <li>seaborn for nicer visuals</li>
+            <li>Plotting trends &amp; distributions</li>
+        </ul>
+        <h3>Mini Project (Day 7)</h3>
+        <ul>
+            <li>Analyze a dataset from Kaggle or sklearn.datasets</li>
+            <li>Make plots + summary insights</li>
+        </ul>
+    </div>
+
+    <div class="week">
+        <h2>Week 2 – Statistics &amp; Data Analysis</h2>
+        <div class="goal">Goal: Learn how to understand your data and prepare it for AI.</div>
+        <ul>
+            <li>Descriptive statistics (mean, median, std deviation)</li>
+            <li>Probability basics</li>
+            <li>Correlation &amp; covariance</li>
+            <li>Hypothesis testing (t-tests, chi-square)</li>
+            <li>Project: Find patterns in a real dataset</li>
+        </ul>
+    </div>
+
+    <div class="week">
+        <h2>Week 3 – Machine Learning Foundations</h2>
+        <div class="goal">Goal: Learn how to train, test, and evaluate ML models.</div>
+        <ul>
+            <li>Types of ML: supervised, unsupervised</li>
+            <li>Train/test split</li>
+            <li>Classification (logistic regression, decision trees)</li>
+            <li>Regression (linear regression)</li>
+            <li>Model evaluation (accuracy, precision, recall, F1)</li>
+        </ul>
+    </div>
+
+    <div class="week">
+        <h2>Week 4 – Deep Learning &amp; AI</h2>
+        <div class="goal">Goal: Get hands-on with neural networks.</div>
+        <ul>
+            <li>Intro to TensorFlow &amp; Keras</li>
+            <li>Building a basic neural network</li>
+            <li>Image recognition (MNIST dataset)</li>
+            <li>Simple NLP text classification</li>
+        </ul>
+    </div>
+
+    <div class="week">
+        <h2>Week 5 – AI Project Development</h2>
+        <div class="goal">Goal: Build your own AI project.</div>
+        <ul>
+            <li>Choose a topic: NLP, Computer Vision, or Predictive Analytics</li>
+            <li>Gather &amp; clean data</li>
+            <li>Train and fine-tune model</li>
+            <li>Evaluate performance</li>
+        </ul>
+    </div>
+
+    <div class="week">
+        <h2>Week 6 – Portfolio &amp; Deployment</h2>
+        <div class="goal">Goal: Publish your work so you can show it to others.</div>
+        <ul>
+            <li>Clean up Jupyter notebooks</li>
+            <li>Push to GitHub</li>
+            <li>Create a portfolio README</li>
+            <li>Learn to deploy with Streamlit or Flask</li>
+        </ul>
+    </div>
+
+    <hr>
+    <p>If you like, I can start right now with <strong>Week 1, Day 1: Python basics</strong> and give you exercises so you master them before moving forward.<br>
+    Do you want me to start with that now?</p>
