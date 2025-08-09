@@ -1,4 +1,8 @@
 import pandas as pd
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 
 df = pd.read_csv(url)
@@ -29,8 +33,6 @@ print("Duplicates before:", df.duplicated().sum())
 df.drop_duplicates(inplace=True)
 print("Duplicates after:", df.duplicated().sum())
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # Survival rate by gender
 print(df.groupby('Sex')['Survived'].mean())
