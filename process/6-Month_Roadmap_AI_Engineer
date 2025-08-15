@@ -165,3 +165,120 @@ Each month builds on the previous one, with **daily exercises**, **projects**, a
 ✔ **Stay updated** (follow arXiv, Towards AI, Sebastian Ruder).  
 
 **You can do this!** 🚀 Let me know if you need adjustments.
+
+
+# **Day 1: Python Basics - Your First Steps into Programming**  
+*Welcome to your AI engineering journey! Today we'll build a solid foundation in Python.*  
+
+## **Today's Learning Objectives**  
+1. Write your first Python script  
+2. Understand variables and data types  
+3. Perform basic operations  
+4. Get user input and display output  
+
+## **Step 1: Python Installation & Setup**  
+*If you haven't installed Python yet:*  
+```bash
+sudo apt update
+sudo apt install python3 python3-pip -y
+python3 --version  # Should show Python 3.8+
+```
+
+## **Step 2: Your First Python Script**  
+Create `day1.py` with this code:  
+```python
+# day1.py
+print("🌟 Welcome to Your AI Journey! 🌟")
+print("You've taken your first step toward becoming an AI engineer!")
+```
+
+Run it:  
+```bash
+python3 day1.py
+```
+
+## **Step 3: Variables & Data Types**  
+*Add these to your script:*  
+```python
+# Variables
+name = "Saida"
+age = 25  # Change to your real age
+height = 1.75  # In meters
+is_beginner = True
+
+# Print types
+print("\n📊 Variable Types:")
+print(f"Name: {name} ({type(name)})")
+print(f"Age: {age} ({type(age)})")
+print(f"Height: {height}m ({type(height)})")
+print(f"Beginner: {is_beginner} ({type(is_beginner)})")
+```
+
+## **Step 4: Basic Operations**  
+*Add these calculations:*  
+```python
+# Math operations
+print("\n🧮 Math Operations:")
+print(f"Age in 5 years: {age + 5}")
+print(f"Height in cm: {height * 100:.0f}")
+print(f"Half your age: {age / 2}")
+
+# String operations
+print("\n🔤 String Operations:")
+print(f"Name repeated: {name * 3}")
+print(f"Name uppercase: {name.upper()}")
+```
+
+## **Step 5: User Input & Output**  
+*Make it interactive:*  
+```python
+# User interaction
+print("\n💬 Let's get to know each other!")
+user_name = input("What's your name? ")
+user_age = int(input("How old are you? "))
+user_height = float(input("Your height in meters? "))
+
+print(f"\n👋 Hello {user_name}! Here's your profile:")
+print(f"• You'll be {user_age + 5} in 5 years")
+print(f"• Your height is {user_height*100:.0f} cm")
+if user_age < 30:
+    print("• You're young in the AI field!")
+else:
+    print("• Your experience is valuable in AI!")
+```
+
+## **Step 6: Daily Challenge**  
+1. Create a BMI calculator:  
+   `BMI = weight (kg) / (height (m))^2`  
+2. Add comments explaining each step  
+3. Format output to 2 decimal places  
+
+*Example solution:*  
+```python
+# BMI Calculator
+print("\n🏋️ Daily Challenge: BMI Calculator")
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in meters: "))
+bmi = weight / (height ** 2)
+print(f"Your BMI is: {bmi:.2f}")
+```
+
+## **Step 7: Learning Resources**  
+- 📚 [Python for Everybody (Chapter 1-2)](https://www.py4e.com/html3/01-intro)  
+- 💻 [W3Schools Python Basics](https://www.w3schools.com/python/python_syntax.asp)  
+
+## **End-of-Day Checklist**  
+- [ ] Ran first Python script  
+- [ ] Experimented with different variable types  
+- [ ] Completed BMI calculator challenge  
+- [ ] Pushed code to GitHub (create repo if needed)  
+
+```bash
+git add day1.py
+git commit -m "Completed Day 1 of AI journey"
+git push
+```
+
+**Tomorrow:** Control flow (if statements, loops) and data structures! 💪  
+
+> "The best time to start was yesterday. The next best time is NOW." - Chinese Proverb
